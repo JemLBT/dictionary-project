@@ -17,7 +17,37 @@ h2 {
   text-align: center;
   font-size: 14px;
   letter-spacing: 1px;
+  font-weight: 300;
+  font-family: poppins;
+  margin-top: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: poppins;
+  margin-top: 20px;
+  color: #200eff;
+}
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: poppins;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
   font-weight: 100;
   font-family: poppins;
-  margin-top: 0px;
+  margin: 0 auto;
+  display: block;
+  max-width: 400px;
 }
