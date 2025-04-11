@@ -7,11 +7,10 @@ function App() {
       <div className="container">
         <h1>DICTIONARY</h1>
         <h2>a resource that lists the words of a language</h2>
-
-        <main>
-          <Dictionary />
-        </main>
       </div>
+      <main>
+        <Dictionary />
+      </main>
     </div>
   );
 }

@@ -1,11 +1,22 @@
-body {
-  background-color: rgb(239, 237, 238);
+html {
+  --s: 109px; /* control the size*/
+  --c1: whitesmoke;
+  --c2: #23282e;
+
+  --l: var(--c1) 20%, #0000 0;
+  --g: 35%, var(--c2) 0 45%, var(--c1) 0;
+  background: linear-gradient(45deg, var(--l) 45%, var(--c1) 0 70%, #0000 0),
+    linear-gradient(-45deg, var(--l) var(--g) 70%, #0000 0),
+    linear-gradient(45deg, var(--c1) var(--g));
+  background-size: var(--s) var(--s);
 }
 
 .Dictionary {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 60px;
+  border-radius: 10px;
+  padding: 10px;
   text-align: center;
+  background-color: #23282e;
 }
 
 h1 {
@@ -13,38 +24,42 @@ h1 {
   letter-spacing: 7px;
   font-family: poppins;
   margin-top: 100px;
-  font-size: 51px;
-  font-weight: 200;
+  font-size: 90px;
+  font-weight: 700;
   margin-bottom: 0;
+  color: whitesmoke;
 }
 
 h2 {
   text-align: center;
-  font-size: 14px;
-  letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 3px;
   font-weight: 300;
   font-family: poppins;
   margin-top: 0;
+  color: whitesmoke;
 }
 
 h3 {
   text-align: center;
   font-size: 20px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 800;
   font-family: poppins;
-  margin-top: 40px;
-  color: #b883af;
+  margin-top: 10px;
+  color: #23282e;
+
   text-transform: uppercase;
 }
 
 h4 {
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: 300;
   font-family: poppins;
-  margin-top: 20px;
+  color: whitesmoke;
+  padding: 10px;
 }
 
 p {
@@ -55,7 +70,7 @@ p {
   font-family: poppins;
   margin: 0 auto;
   display: block;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 li {
@@ -69,20 +84,43 @@ li {
 
 .hint {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
   font-weight: 100;
   font-family: poppins;
   margin: 0 auto;
   display: block;
   max-width: 400px;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: whitesmoke;
 }
 
 .whichWord {
-  color: blue;
+  color: #23282e;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  margin: 1px;
 }
 
-.search {
-  color: red;
+.container {
+  background-color: #ff4b4b;
+  padding: 80px;
+}
+
+.Results {
+  max-width: 900px;
+  margin: 0 auto;
+  width: auto;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  color: #23282e;
+}
+
+.form {
+  color: #ff4b4b;
 }
