@@ -58,7 +58,7 @@ h4 {
   letter-spacing: 1px;
   font-weight: 300;
   font-family: poppins;
-  color: whitesmoke;
+  color: #ff4b4b;
   padding: 10px;
 }
 
@@ -116,7 +116,6 @@ li {
   width: auto;
   padding: 5px;
   border-radius: 10px;
-  margin-top: 10px;
   background-color: whitesmoke;
   color: #23282e;
 }
