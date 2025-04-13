@@ -123,3 +123,33 @@ li {
 .form {
   color: #ff4b4b;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h2 {
+    font-size: 9px;
+    margin: 0 auto;
+    letter-spacing: 0px;
+    display: block;
+  }
+  h4 {
+    font-size: 16px;
+    margin: 0 auto;
+    letter-spacing: 0px;
+    display: block;
+  }
+  .container {
+    background-color: #ff4b4b;
+    padding: 50px;
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+  }
+}
